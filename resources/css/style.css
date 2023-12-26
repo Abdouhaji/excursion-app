@@ -1,5 +1,6 @@
-/* Reset default margin and padding */
-body, h1, h2, p {
+/* Apply box-sizing border-box to all elements */
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -10,28 +11,30 @@ body {
   color: white;
   font-family: "Verdana", sans-serif;
   text-align: center;
+  line-height: 1.6; /* Improved readability */
 }
 
 /* Call to action styles */
 .cta {
   color: aquamarine;
-  font-size: 16px;
+  font-size: 1rem; /* Use relative units for better responsiveness */
 }
 
 /* Heading styles */
 h1 {
-  font-size: 50px;
+  font-size: 3.125rem; /* Use relative units for better responsiveness */
+  font-weight: normal;
 }
 
 h2 {
-  font-size: 42px;
+  font-size: 2.625rem; /* Use relative units for better responsiveness */
   font-weight: 300;
 }
 
 /* Paragraph styles */
 p {
-  font-size: 21px;
-  color: gray;
+  font-size: 1.3125rem; /* Use relative units for better responsiveness */
+  color: #888; /* Use hex code for color */
 }
 
 /* Footer styles */
